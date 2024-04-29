@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<!-- beautify ignore:start -->
+	<meta charset="utf-8">
+	<title>奥野製作所</title>
+	{% favicon 'assets/favicon.svg' %}
+	<meta name="author" content="奥野晃子">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- {% include 'node_modules/sakura.css/css/normalize.css' %}
+	{% include 'node_modules/sakura.css/css/sakura-vader.css' %} -->
+	<!-- Concat CSS to minify it -->
+	{% capture css %}
+		{% include 'style/base.css' %}
+	{% endcapture %}
+	
+	<style>
+		{{ css | cssmin }}
+	</style>
+	<!-- beautify ignore:end -->
+</head>
+<div class="video-wrapper">
+	<video autoplay playasinline loop muted class="bg">
+		<source src="/assets/BG_H265.mp4" type="video/mp4" />
+		<source src="/assets/BG_H264.mp4" type="video/mp4" />
+	</video>
+</div>
+<header>
+</header>
+<body>
+	<main>
+		{{ content }}
+	</main>
+</body>
+
+</html>
