@@ -37,6 +37,7 @@ body {
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.3);
 	backdrop-filter: blur(calc(1vw + 1vh));
+	-webkit-backdrop-filter: blur(calc(1vw + 1vh));
 }
 
 .banner-text {
