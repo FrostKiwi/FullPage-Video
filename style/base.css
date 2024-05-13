@@ -10,6 +10,23 @@ body {
 		Meiryo, "M+ 1p", sans-serif;
 }
 
+ul {
+	margin-bottom: unset;
+}
+
+table tr:last-child td{
+	border-bottom: unset;
+}
+
+.noBorder th,
+.noBorder td {
+	border-bottom: none;
+}
+
+.noBorder th{
+	color: #96c280;
+}
+
 .content {
 	margin: auto;
 	max-width: 38em;

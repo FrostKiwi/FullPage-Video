@@ -1,8 +1,10 @@
 const CleanCSS = require("clean-css");
 const faviconPlugin = require("eleventy-favicon");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPassthroughCopy("assets");
 
 	/* CSS minifier as per https://www.11ty.dev/docs/quicktips/inline-css/ */
