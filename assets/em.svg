@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 24">
+  <defs>
+  <style type="text/css"><![CDATA[
+  rect {
+    width: 125px;
+    height: 24px;
+  }
+
+  a:focus rect,
+  rect:hover {
+    rx: 4px;
+    ry: 4px;
+  }
+
+  text {
+	font-family: "-apple-system", "Helvetica Neue", "Yu Gothic", YuGothic, Verdana,
+		Meiryo, "M+ 1p", sans-serif;
+    font-size: 14px;
+    fill: #8dbd75;
+    pointer-events: none;
+  }
+
+  a:focus text,
+  rect:hover + text {
+    fill: #314824;
+    text-decoration: underline;
+  }
+  ]]></style>
+  </defs>
+
+  <a href="mailto:%69%6E%66%6F%40%6F%6B%75%6E%6F%2E%6F%73%61%6B%61">
+    <rect fill-opacity="0.0"/>
+    <text y="51%" dominant-baseline="middle">&#x69;&#x6e;&#x66;&#x6f;&#x40;&#x6f;&#x6b;&#x75;&#x6e;&#x6f;<!--.run-->&#x2e;&#x6f;&#x73;&#x61;&#x6b;&#x61;</text>
+  </a>
+</svg>

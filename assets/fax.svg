@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 24">
+  <defs>
+  <style type="text/css"><![CDATA[
+  rect {
+    width: 125px;
+    height: 24px;
+  }
+
+  a:focus rect,
+  rect:hover {
+    rx: 4px;
+    ry: 4px;
+  }
+
+  text {
+	font-family: "-apple-system", "Helvetica Neue", "Yu Gothic", YuGothic, Verdana,
+		Meiryo, "M+ 1p", sans-serif;
+    font-size: 14px;
+    fill: #8dbd75;
+    pointer-events: none;
+  }
+
+  a:focus text,
+  rect:hover + text {
+    fill: #314824;
+    text-decoration: underline;
+  }
+  ]]></style>
+  </defs>
+
+  <a href="tel:%30%37%32%39%37%37%37%30%35%32">
+    <rect fill-opacity="0.0"/>
+    <text y="51%" dominant-baseline="middle"><!--4-->&#x30;&#x37;&#x32;&#x39;&#x2d;&#x37;&#x37;&#x2d;&#x37;<!--2-->&#x30;&#x35;&#x32;</text>
+  </a>
+</svg>

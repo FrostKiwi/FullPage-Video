@@ -38,15 +38,15 @@
   </tr>
   <tr>
     <th></th>
-    <td>Tel まだ</td>
+    <td style="display: flex; gap: 48px; align-items: center;">Tel <object style="height: 2em" class="svg-email-protection" data="/assets/tel.svg" type="image/svg+xml"></td>
   </tr>
   <tr>
     <th></th>
-    <td>Fax まだ</td>
+    <td style="display: flex; gap: 45px; align-items: center;">Fax <object style="height: 2em" class="svg-email-protection" data="/assets/fax.svg" type="image/svg+xml"></td>
   </tr>
   <tr>
     <th></th>
-    <td>E-Mail まだ</td>
+    <td style="display: flex; gap: 20px; align-items: center;">E-Mail <object style="height: 2em" class="svg-email-protection" data="/assets/em.svg" type="image/svg+xml"></object></td>
   </tr>
 </table>
 
