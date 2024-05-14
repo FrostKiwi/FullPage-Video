@@ -14,7 +14,7 @@ ul {
 	margin-bottom: unset;
 }
 
-table tr:last-child td{
+table tr:last-child td {
 	border-bottom: unset;
 }
 
@@ -27,8 +27,12 @@ th {
 	border-bottom: none;
 }
 
-.noBorder th{
+.noBorder th {
 	color: #96c280;
+}
+
+.smallHeader th {
+	width: 0%;
 }
 
 .content {
@@ -52,7 +56,7 @@ th {
 	height: 100%;
 	margin: 0;
 	object-fit: cover;
-	position: absolute;	
+	position: absolute;
 	z-index: -1;
 }
 
@@ -66,12 +70,18 @@ th {
 	background-color: var(--bgcolor);
 }
 
-.banner-text {
+.banner-text h1 {
+	font-family: "-apple-system", "Helvetica Neue", "Yu Gothic", YuGothic, Verdana,
+		Meiryo, "M+ 1p", sans-serif;
+	font-weight: unset;
 	letter-spacing: 0.3em;
 	line-height: 1.4em;
 	font-size: 8vw;
 	color: #ffffff;
 	text-shadow: 0 0 50px black;
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+	
 }
 
 .banner-sub {
