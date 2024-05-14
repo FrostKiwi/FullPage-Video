@@ -51,24 +51,22 @@
 </table>
 
 ## 保有設備
-弊社は電化製品・自動車・建築関係の金属部品をメインに、量産向けの順送プレス加工や単発プレス機４台を同時可動させるＴＨＬロボットなどを用いて、より良いものをより速く、正確に生産することを理念として日々努力している所存です。
-
-| プレス機 | メーカー                         | 台数 | オプション                     |
-| -------- | -------------------------------- | ---- | ------------------------------ |
-| 110t     | [AMADA](https://www.amada.co.jp) | 1    | ４行程　ＴＨＬ　ロボット使用可 |
-| 80t      | [AMADA](https://www.amada.co.jp) | 3    | ４行程　ＴＨＬ　ロボット使用可 |
-| 200t     | [AIDA](https://www.aida.co.jp)   | 1    | 順送装置付（ユタニ式レベラー） |
-| 150t     | [AIDA](https://www.aida.co.jp)   | 1    |                                |
-| 60t      | [AIDA](https://www.aida.co.jp)   | 1    |                                |
-| 55t      | [AIDA](https://www.aida.co.jp)   | 1    |                                |
-| 20t      | [金田](http://www.kaneda-t.com/) | 1    |                                |
-| 15t      | [金田](http://www.kaneda-t.com/) | 1    |                                |
+| プレス機 | メーカー                                   | 台数 | オプション                     |
+| -------- | -------------------------------------------| ---- | ------------------------------ |
+| 110t     | [AMADA](https://www.amada.co.jp)           | 1    | ４行程　ＴＨＬ　ロボット使用可 |
+| 80t      | [AMADA](https://www.amada.co.jp)           | 3    | ４行程　ＴＨＬ　ロボット使用可 |
+| 200t     | [AIDA](https://www.aida.co.jp)             | 1    | 順送装置付（ユタニ式レベラー） |
+| 150t     | [AIDA](https://www.aida.co.jp)             | 1    |                                |
+| 60t      | [AIDA](https://www.aida.co.jp)             | 1    |                                |
+| 55t      | [AIDA](https://www.aida.co.jp)             | 1    |                                |
+| 20t      | [KANEDA](http://www.kaneda-t.com/)         | 1    |                                |
+| 15t      | [畠山鉄工所](http://www.hatakeyama.ne.jp/) | 1    |                                |
 
 ### その他
 
 <table class="noBorder smallHeader">
   <tr>
-    <th>平面研磨機械</th>
+    <th>平面研磨機</th>
     <td>300x600</td>
   </tr>
   <tr>
@@ -77,7 +75,7 @@
   </tr>
   <tr>
     <th>ボール盤</th>
-    <td>6 台</td>
+    <td>3 台</td>
   </tr>
   <tr>
     <th>インパクト製品カット機</th>
@@ -89,7 +87,7 @@
   </tr>
   <tr>
     <th>ハイトゲージ</th>
-    <td>～ 250</td>
+    <td>～ 300</td>
   </tr>
   <tr>
     <th>ピンゲージセット</th>
