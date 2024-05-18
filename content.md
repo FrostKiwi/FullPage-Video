@@ -35,15 +35,15 @@
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; gap: 48px; align-items: center;">Tel <object style="height: 2em" class="svg-email-protection" data="/assets/tel.svg" type="image/svg+xml"></td>
+    <td style="display: flex; align-items: center;"><span style="width: 75px">Tel</span><object style="height: 2em" class="svg-email-protection" data="/assets/tel.svg" type="image/svg+xml"></td>
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; gap: 45px; align-items: center;">Fax <object style="height: 2em" class="svg-email-protection" data="/assets/fax.svg" type="image/svg+xml"></td>
+    <td style="display: flex; align-items: center;"><span style="width: 75px">Fax</span><object style="height: 2em" class="svg-email-protection" data="/assets/fax.svg" type="image/svg+xml"></td>
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; gap: 20px; align-items: center;">E-Mail <object style="height: 2em" class="svg-email-protection" data="/assets/em.svg" type="image/svg+xml"></object></td>
+    <td style="display: flex; align-items: center;"><span style="width: 75px">E-Mail</span><object style="height: 2em" class="svg-email-protection" data="/assets/em.svg" type="image/svg+xml"></object></td>
   </tr>
 </table>
 
