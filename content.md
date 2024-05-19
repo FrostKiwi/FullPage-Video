@@ -50,14 +50,14 @@
 ## 保有設備
 | プレス機 | メーカー                                   | 台数 | オプション                     |
 | -------- | -------------------------------------------| ---- | ------------------------------ |
-| 110t     | [AMADA](https://www.amada.co.jp)           | 1    | ４行程　ＴＨＬ　ロボット使用可 |
-| 80t      | [AMADA](https://www.amada.co.jp)           | 3    | ４行程　ＴＨＬ　ロボット使用可 |
-| 200t     | [AIDA](https://www.aida.co.jp)             | 1    | 順送装置付（ユタニ式レベラー） |
+| 110t     | [AMADA](https://www.amada.co.jp)           | 1    | ４行程 ＴＨＬ ロボット使用可   |
+| 80t      | [AMADA](https://www.amada.co.jp)           | 3    | ４行程 ＴＨＬ ロボット使用可   |
+| 200t     | [AIDA](https://www.aida.co.jp)             | 1    | 順送装置付 （ユタニ式レベラー）|
 | 150t     | [AIDA](https://www.aida.co.jp)             | 1    |                                |
 | 60t      | [AIDA](https://www.aida.co.jp)             | 1    |                                |
 | 55t      | [AIDA](https://www.aida.co.jp)             | 1    |                                |
 | 20t      | [KANEDA](http://www.kaneda-t.com/)         | 1    |                                |
-| 15t      | [畠山鉄工所](http://www.hatakeyama.ne.jp/) | 1    |                                |
+| 15t      | <span style="text-wrap: nowrap">[畠山鉄工所](http://www.hatakeyama.ne.jp/)</span> | 1    |                                |
 
 ### その他
 
