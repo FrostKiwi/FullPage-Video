@@ -9,14 +9,18 @@ layout: layout.html
 	</video>
 	<script>
 		const video = document.querySelector('video');
-		video.addEventListener('canplaythrough', () => {
-			/* Fighting battery optimizations */
+
+		/* Fighting battery optimizations */
+		const forceStart = () => {
 			video.loop = true;
 			video.muted = true;
 			video.playsinline = true;
 			video.play();
-		});
+		};
+		video.addEventListener('canplay', forceStart);
+		video.addEventListener('canplaythrough', forceStart);
 	</script>
+
 	<div class="banner">
 		<div class="banner-text">
 			<h1>奥野製作所</h1>
