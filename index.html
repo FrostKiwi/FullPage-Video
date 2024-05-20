@@ -2,13 +2,25 @@
 layout: layout.html
 ---
 <div class="video-wrapper">
-	<video autoplay playsinline loop muted class="bg" poster="/assets/preload.jpg">
+	<video autoplay playsinline loop muted class="bg" poster="/assets/preload.jpg" preload="auto">
 		<source src="/assets/BG_VP9.webm" type='video/mp4; codecs="vp9"' />
 		<source src="/assets/BG_H265.mp4" type='video/mp4; codecs="hev1"' />
 		<source src="/assets/BG_H264.mp4" type='video/mp4; codecs="avc1.4D4020"' />
 	</video>
+	<script>
+		const video = document.querySelector('video');
+		video.addEventListener('canplaythrough', () => {
+			/* Fighting battery optimizations */
+			video.loop = true;
+			video.muted = true;
+			video.playsinline = true;
+			video.play();
+		});
+	</script>
 	<div class="banner">
-		<div class="banner-text"><h1>奥野製作所</h1></div>
+		<div class="banner-text">
+			<h1>奥野製作所</h1>
+		</div>
 		<span class="banner-sub">since 1973 ~ 親子３世代</span>
 	</div>
 	<div class="bottom-gradient"></div>
