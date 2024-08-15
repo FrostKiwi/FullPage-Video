@@ -6,19 +6,20 @@
 	<meta charset="utf-8">
 	<title>奥野製作所</title>
 	
-	<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml">
-	<link href="/assets/apple-touch-icon.png" sizes="180x180" rel="apple-touch-icon">
-	<link href="/assets/favicon.ico" rel="icon">
+	<link rel="manifest" href="/assets/manifest.webmanifest">
+	<link rel="icon" href="/assets/favicon.ico" sizes="32x32">
+	<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 
 	<meta name="author" content="奥野晃子">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Twitter Tags -->
 	<meta name="twitter:card" content="summary" />
-	<meta property="og:url" content="https://test.okuno.osaka" />
+	<meta property="og:url" content="https://okuno.osaka" />
 	<meta property="og:title" content="奥野製作所" />
 	<meta property="og:description" content="アルミ・ステンレス・伸銅品等の金属プレス成型加工" />
-	<meta property="og:image" content="https://test.okuno.osaka/assets/social.jpg" />
+	<meta property="og:image" content="https://okuno.osaka/assets/social.jpg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:locale" content="ja_JP" />
@@ -34,14 +35,6 @@
 		{{ css | cssmin }}
 	</style>
 	<!-- beautify ignore:end -->
-	<script>
-		;(function () {
-			var src = '//cdn.jsdelivr.net/npm/eruda';
-			if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
-			document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-			document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
-		})();
-	</script>
 </head>
 
 <body>
