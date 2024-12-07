@@ -50,8 +50,8 @@
 ## 保有設備
 | プレス機 | メーカー                                   | 台数 | オプション                     |
 | -------- | -------------------------------------------| ---- | ------------------------------ |
-| 110t     | [AMADA](https://www.amada.co.jp)           | 1    | ４行程 ＴＨＬ ロボット使用可   |
-| 80t      | [AMADA](https://www.amada.co.jp)           | 3    | ４行程 ＴＨＬ ロボット使用可   |
+| 110t     | [AMADA](https://www.amada.co.jp)           | 1    | プレス４行程ロボットライン   |
+| 80t      | [AMADA](https://www.amada.co.jp)           | 3    | プレス４行程ロボットライン   |
 | 200t     | [AIDA](https://www.aida.co.jp)             | 1    | 順送装置付 （ユタニ式レベラー）|
 | 150t     | [AIDA](https://www.aida.co.jp)             | 1    |                                |
 | 60t      | [AIDA](https://www.aida.co.jp)             | 1    |                                |
