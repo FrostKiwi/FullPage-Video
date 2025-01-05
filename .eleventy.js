@@ -1,10 +1,11 @@
-const CleanCSS = require("clean-css");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
+import CleanCSS from "clean-css";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
+import eleventyPluginFilesMinifier from "@sherby/eleventy-plugin-files-minifier";
 
 /* Nav */
-const markdownIt = require('markdown-it')
-const markdownItAnchor = require('markdown-it-anchor');
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+
 
 const mdOptions = {
 	html: true,
@@ -19,7 +20,7 @@ const mdAnchorOpts = {
 	level: [1, 2, 3, 4]
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(EleventyRenderPlugin);
 	eleventyConfig.addPassthroughCopy("assets");
 
