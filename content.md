@@ -35,11 +35,11 @@
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; align-items: center;"><span id="telLabel" style="width: 75px">Tel</span><object ria-labelledby="telLabel" style="height: 2em" data="/assets/tel.svg" type="image/svg+xml"></td>
+    <td style="display: flex; align-items: center;"><span id="telLabel" style="width: 75px">Tel</span><object aria-labelledby="telLabel" style="height: 2em" data="/assets/tel.svg" type="image/svg+xml"></object></td>
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; align-items: center;"><span id="faxLabel" style="width: 75px">Fax</span><object aria-labelledby="faxLabel" style="height: 2em" data="/assets/fax.svg" type="image/svg+xml"></td>
+    <td style="display: flex; align-items: center;"><span id="faxLabel" style="width: 75px">Fax</span><object aria-labelledby="faxLabel" style="height: 2em" data="/assets/fax.svg" type="image/svg+xml"></object></td>
   </tr>
   <tr>
     <th></th>
