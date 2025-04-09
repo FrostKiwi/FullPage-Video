@@ -31,19 +31,19 @@
   </tr>
   <tr>
     <th style="display: flex">アクセス</th>
-    <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210252.24517793747!2d135.65380368558542!3d34.574025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001289cc0000001%3A0x3636541c70e53652!2z5aWl6YeO6KO95L2c5omA!5e0!3m2!1sja!2sjp!4v1716047533412!5m2!1sja!2sjp" width="100%" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+    <td><iframe title="Google Maps frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210252.24517793747!2d135.65380368558542!3d34.574025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001289cc0000001%3A0x3636541c70e53652!2z5aWl6YeO6KO95L2c5omA!5e0!3m2!1sja!2sjp!4v1716047533412!5m2!1sja!2sjp" width="100%" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; align-items: center;"><span style="width: 75px">Tel</span><object style="height: 2em" data="/assets/tel.svg" type="image/svg+xml"></td>
+    <td style="display: flex; align-items: center;"><span id="telLabel" style="width: 75px">Tel</span><object ria-labelledby="telLabel" style="height: 2em" data="/assets/tel.svg" type="image/svg+xml"></td>
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; align-items: center;"><span style="width: 75px">Fax</span><object style="height: 2em" data="/assets/fax.svg" type="image/svg+xml"></td>
+    <td style="display: flex; align-items: center;"><span id="faxLabel" style="width: 75px">Fax</span><object aria-labelledby="faxLabel" style="height: 2em" data="/assets/fax.svg" type="image/svg+xml"></td>
   </tr>
   <tr>
     <th></th>
-    <td style="display: flex; align-items: center;"><span style="width: 75px">E-Mail</span><object style="height: 2em" data="/assets/em.svg" type="image/svg+xml"></object></td>
+    <td style="display: flex; align-items: center;"><span id="emailLabel" style="width: 75px">E-Mail</span><object aria-labelledby="emailLabel" style="height: 2em" data="/assets/em.svg" type="image/svg+xml"></object></td>
   </tr>
 </table>
 
